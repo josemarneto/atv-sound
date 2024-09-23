@@ -34,3 +34,28 @@ a{
     color: black;
     text-decoration: none;/*tira a decoraçao dos links*/
 }
+/*============================================================
+                         TOPO
+==============================================================*/
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+    padding: 0 30px 0 30px;
+}
+header nav ul li {
+    display: flex;
+    padding: 0 10px 0 10px;
+}
+/*============================================================
+                         MAIN
+==============================================================*/
+main section.pt-1{
+    display: flex;
+}
+main section.pt-1 div.texto h1{
+    font-size: 2rem;
+}
+
