@@ -40,6 +40,7 @@ a{
 header nav {
     display: flex;
     justify-content: space-between;
+    margin: 20vw;
 }
 header nav ul {
     display: flex;
@@ -50,12 +51,28 @@ header nav ul li {
     padding: 0 10px 0 10px;
 }
 /*============================================================
-                         MAIN
+                         MAIN 1
 ==============================================================*/
-main section.pt-1{
-    display: flex;
+main section {
+    margin: 20vw ;
 }
-main section.pt-1 div.texto h1{
+main section.pt1 {
+    display: flex;
+    justify-content: space-between;
+}
+main section.pt1 div.text h2{
+    display: flex;
     font-size: 2rem;
 }
-
+main section.pt1 div.text {
+    padding: 20vw 20vw 20vw 20vw;
+}
+main section.pt1 div.text p span {
+    color: gray;
+}
+/*============================================================
+                         MAIN 2
+==============================================================*/
+main section.pt2 {
+    display: flex;
+}
